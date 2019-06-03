@@ -1,28 +1,51 @@
-body {
-  font-family: "Open Sans", helvetica, arial, sans-serif;
-  margin: 3vw;
-}
-
-h1 {
-  color: DodgerBlue;
-}
-h2 {
-  color: Crimson;
-}
-.logo{
-  text-align: left;
-  width: 48vw;
-}
-.main{
-  display:flex;
-  justify-content: space-around;
-  height: 70vh;
-}
-
 img{
-  height: 40vh;
-  width: auto;
-  margin: 3vh 0;
+	display:block;
 }
-  
+
+body{
+	background-color:#0080FF;
+}
+
+table,th{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+.tableOfContents{
+	background-color:#FFFF66;
+	overflow: hidden;
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
+	width:100%;
+}
+
+li{
+	float:left;
+}
+
+.header{
+	display:block;
+	color:yellow;
+	text-align:center;
+	padding:20px;
+}
+
+
+#returnTop{
+	float:right;
+}
+
+#logo{
+	float:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:300px;
+}
   
