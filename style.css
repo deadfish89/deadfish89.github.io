@@ -16,10 +16,6 @@ ul{
 	padding:0;
 }
 
-p{
-	clear:left;
-}
-
 .tableOfContents{
 	background-color:#FFFF66;
 	overflow: hidden;
@@ -29,10 +25,6 @@ p{
 	width:100%;
 }
 
-li{
-	float:left;
-}
-
 .header{
 	display:block;
 	color:yellow;
@@ -40,6 +32,17 @@ li{
 	padding:20px;
 }
 
+li{
+	float:left;
+}
+
+li a{
+	color:#000000;
+}
+
+li a:hover{
+	color:#0000FF;
+}
 
 #returnTop{
 	float:right;
@@ -50,4 +53,18 @@ li{
 	padding-top:5px;
 	padding-bottom:5px;
 	padding-left:300px;
+}
+
+p{
+	clear:left;
+}
+
+.imgCenter{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+}
+
+.center{
+	text-align:center;
 }
