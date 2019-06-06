@@ -3,7 +3,8 @@ img{
 }
 
 body{
-	background-color:#0080FF;
+	background-color:#0080DD;
+	font-size:110%;
 }
 table,th{
 	border:1px solid black;
